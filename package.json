@@ -1,0 +1,30 @@
+{
+  "name": "shuhari",
+  "version": "1.0.0",
+  "description": "Learning about JavaScript development",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "clean": "rm -rf build",
+    "start": "node ./build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexJeffcott/shuhari.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexJeffcott/shuhari/issues"
+  },
+  "homepage": "https://github.com/AlexJeffcott/shuhari#readme",
+  "engines": {
+    "npm": ">=8.0.0",
+    "node": ">=16.0.0",
+    "yarn": "please-use-npm"
+  },
+  "devDependencies": {
+    "typescript": "^4.6.3"
+  }
+}
