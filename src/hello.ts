@@ -1,5 +1,3 @@
-import hello from "./index";
+import greeting from "./greeting.json";
 
-const printHello = hello;
-
-console.log(printHello);
+export const hello = greeting.greeting;

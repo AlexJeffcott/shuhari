@@ -1,2 +1,3 @@
-const greeting = "hello world!"
-export default greeting;
+import { hello } from "./hello";
+
+console.log(hello);
